@@ -1,0 +1,102 @@
+:root {
+  --bg-color: #f8f9fa;
+  --text-color: #212529;
+  --card-bg: #ffffff;
+  --nav-bg: #0d6efd;
+  --nav-text: #ffffff;
+  --btn-primary-bg: #0d6efd;
+  --btn-primary-text: #ffffff;
+  --btn-secondary-bg: #6c757d;
+  --btn-secondary-text: #ffffff;
+  --footer-bg: #e9ecef;
+  --footer-text: #212529;
+  --input-bg: #ffffff;
+  --input-text: #212529;
+  --border-color: #dee2e6;
+}
+[data-theme="dark"] {
+  --bg-color: #1e293b;
+  --text-color: #f1f5f9;
+  --card-bg: #2d3748;
+  --nav-bg: #0b1120;
+  --nav-text: #f1f5f9;
+  --btn-primary-bg: #2563eb;
+  --btn-primary-text: #ffffff;
+  --btn-secondary-bg: #475569;
+  --btn-secondary-text: #f1f5f9;
+  --footer-bg: #0f172a;
+  --footer-text: #f1f5f9;
+  --input-bg: #334155;
+  --input-text: #f1f5f9;
+  --border-color: #475569;
+}
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: background 0.4s ease, color 0.4s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background: var(--nav-bg) !important;
+}
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: var(--nav-text) !important;
+  transition: 0.3s;
+}
+.navbar .nav-link:hover {
+  opacity: 0.8;
+}
+.card {
+  background: var(--card-bg);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  transition: transform 0.3s, box-shadow 0.3s, background 0.4s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.btn-primary {
+  background: var(--btn-primary-bg);
+  color: var(--btn-primary-text);
+  border: none;
+}
+.btn-primary:hover {
+  opacity: 0.9;
+}
+.btn-secondary {
+  background: var(--btn-secondary-bg);
+  color: var(--btn-secondary-text);
+  border: none;
+}
+.btn-secondary:hover {
+  opacity: 0.9;
+}
+
+.form-control, .form-select, textarea {
+  background: var(--input-bg);
+  color: var(--input-text);
+  border: 1px solid var(--border-color);
+}
+.form-control:focus, .form-select:focus, textarea:focus {
+  border-color: var(--btn-primary-bg);
+  box-shadow: 0 0 0 0.2rem rgba(13,110,253,0.25);
+}
+
+footer {
+  background: var(--footer-bg);
+  color: var(--footer-text);
+  padding: 20px;
+  text-align: center;
+}
+footer a {
+  color: var(--btn-primary-bg);
+  transition: 0.3s;
+}
+footer a:hover {
+  color: var(--btn-secondary-bg);
+}

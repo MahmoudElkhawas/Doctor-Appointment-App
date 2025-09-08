@@ -1,0 +1,82 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #212529 !important;
+  --nav-bg: #ffffff;
+  --nav-border: #dee2e6;
+  --card-bg: #f8f9fa;
+  --card-border: #dee2e6;
+  --section-bg: #e9ecef;
+  --primary: #0d6efd;
+  --text: black;
+
+}
+.dark-mode {
+  --bg-color: #121212;
+  --text-color: #f8f9fa !important;
+  --nav-bg: #1f1f1f;
+  --nav-border: #333;
+  --card-bg: #1e1e1e;
+  --card-border: #333;
+  --section-bg: #2c2c2c;
+  --primary: #0d6efd;
+  --text: white;
+
+
+
+}
+body {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+  transition: all 0.4s ease !important;
+}
+.navbar {
+  background-color: var(--nav-bg) !important;
+  border-bottom: 1px solid var(--card-border);
+  transition: all 0.4s ease;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: var(--text) !important;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: var(--primary) !important;
+}
+
+.card {
+  background-color: var(--card-bg) !important;
+  border: 1px solid var(--card-border) !important;
+  transition: all 0.4s ease;
+}
+
+.section-dark {
+  background-color: var(--section-bg) !important;
+  border-radius: 12px ;
+  padding: 60px 20px;
+  margin-bottom: 40px;
+  transition: all 0.4s ease;
+}
+
+.footer {
+  background-color: var(--nav-bg) !important;
+  color: var(--text-color) !important;
+  border-top: 1px solid var(--nav-border) !important;
+  transition: all 0.4s ease;
+}
+.py-5 {
+  background-color: var(--nav-bg) !important;
+  border-bottom: 1px solid var(--nav-border) !important;
+  transition: all 0.4s ease;
+  color: var(--text) !important;
+}
+#to{
+  color: var(--text) !important;
+}
+.fw-bold{
+  color: var(--text) !important;
+}
+
+
+
