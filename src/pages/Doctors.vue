@@ -30,7 +30,7 @@
           <div class="card-body">
             <h5 class="card-title fw-bold">{{ doc.name }}</h5>
             <p class="text-primary mb-1">{{ doc.specialty }}</p>
-            <p class="text-muted small">{{ doc.location }}</p>
+            <p class="text-primary small">{{ doc.location }}</p>
             <router-link
               :to="{ name: 'Booking', params: { id: doc.id } }"
               class="btn btn-primary btn-sm mt-2"
