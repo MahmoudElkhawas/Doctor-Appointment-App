@@ -2,7 +2,7 @@
   <div class="container py-5">
     <div class="section-box text-center mb-5" data-aos="fade-down">
       <h2 class="fw-bold">Meet Our Doctors</h2>
-      <p class="text-muted">
+      <p id="cho" class="text-muted">
         Choose from our experienced and trusted specialists
       </p>
     </div>

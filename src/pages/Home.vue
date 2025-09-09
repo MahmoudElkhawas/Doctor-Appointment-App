@@ -48,7 +48,7 @@
     <section class="py-5 bg-light text-dark">
       <div class="container">
         <div class="row text-center mb-5">
-          <h2  class="fw-bold" data-aos="fade-down">How It Works</h2>
+          <h2 class="fw-bold" data-aos="fade-down" style="color: black !important;">How It Works</h2>
         </div>
         <div class="row g-4">
           <div class="col-md-4" data-aos="zoom-in">
